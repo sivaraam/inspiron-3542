@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<!-- 
+===================================================================== 
+                                                                       
+Linux on Laptops                                                     
+copyright (c) 2009 linux-on-laptops.com
+                                                                                                                                                           
+Please contact linuxonlaptops (at) gmail.com for information concerning 
+the intellectual property in this document.                              
+                                                                      
+ ===================================================================== 
+ -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="linux, laptop, laptops, notebook, notebooks, computer, computers, install, mobile, howto, guide, unix, dell, inspiron 3542">
+  <meta name="description" content="Debian on a Inspiron 3542">
+  <link rel="shortcut icon" href="http://www.linux-on-laptops.com/favicon.ico">
+  <!-- base href="http://www.linux-on-laptops.com/" -->
+  <title>Debian on a Inspiron 3542(Linux on Laptops)</title>
+</head>
+<body>
+<div align="center">
+<h1>Installing Debian on Dell Inspiron 3542</h1>
+<p>Last updated: [Date]</p>
+</div>
+<p>General Hardware Specifications of [Laptop]:</p>
+<table border="1" width="100%">
+  <tbody>
+    <tr>
+      <td width="33%">
+      <div class="headings" align="center">Hardware Components</div>
+      </td>
+      <td width="33%">
+      <div class="headings" align="center">Status under Linux</div>
+      </td>
+      <td width="33%">
+      <div class="headings" align="center">Notes</div>
+      </td>
+    </tr>
+    <tr>
+      <td width="33%">Pentium III Processor, 1.0 GHz</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation.</td>
+    </tr>
+    <tr>
+      <td width="33%">14.1 SXGA+ TFT Display</td>
+      <td width="33%">Works</td>
+      <td width="33%">Select Generic LCD Display in Installer</td>
+    </tr>
+    <tr>
+      <td width="33%">ATI 16MB Video ( ATI Radeon M )</td>
+      <td width="33%">Works</td>
+      <td width="33%">Download ATI Linux driver</td>
+    </tr>
+    <tr>
+      <td width="33%">256MB, SDRAM, 2DIMMs</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation</td>
+    </tr>
+    <tr>
+      <td width="33%">20 GB Ultra ATA Hard Drive</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation</td>
+    </tr>
+    <tr>
+      <td width="33%">Modular Floppy Drive</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation</td>
+    </tr>
+    <tr>
+      <td width="33%">Integrated Network Card</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation</td>
+    </tr>
+    <tr>
+      <td width="33%">Internal 56k Modem</td>
+      <td width="33%">Doesn't Work</td>
+      <td width="33%">In progress</td>
+    </tr>
+    <tr>
+      <td width="33%">24X Max Variable CD-ROM Drive</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation</td>
+    </tr>
+    <tr>
+      <td width="33%">Internal miniPCI Dell TrueMobile 1150 Wireless
+Networking (Wi-Fi Certified)</td>
+      <td width="33%">Doesn't Work</td>
+      <td width="33%">Given up</td>
+    </tr>
+    <tr>
+      <td width="33%">59 WHr Lithium-Ion Battery</td>
+      <td width="33%">Works</td>
+      <td width="33%">No special procedure required during installation</td>
+    </tr>
+    <tr>
+      <td width="33%">ESS Maestro 3 Sound Card</td>
+      <td width="33%">Works</td>
+      <td width="33%">
+      <p>No special procedure required if using Kernel 2.6.x. </p>
+      <p>ALSA Sound drivers required for Kernel 2.4.x</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>This laptop is operating under Kernel version [Kernel version number
+which you are using]</p>
+<div class="headings">Basic Installation of [Linux Distribution]:</div>
+<ul>
+  <li>Why to use [Linux Distribution]</li>
+  <li>Obtaining [Linux Distribution]</li>
+  <li>Installing</li>
+  <li>Post-Install modifications/tweaks</li>
+</ul>
+<div class="headings">Setting up additional features for [Linux
+Distribution]</div>
+<ul>
+  <li>Getting Suspend-to-Disk to operate correctly</li>
+  <li>Getting the touchpad to operate as more than a PS/2 mouse</li>
+  <li>Any other additional features you can think of</li>
+</ul>
+<div class="headings">Unresolved issues</div>
+<ul>
+  <li>KDE doesn't operate properly under 16-bit color</li>
+  <li>Sound comes out distorted</li>
+  <li>Computer hangs every five minutes (uh-oh)</li>
+  <li>KDE battery meter doesn't function correctly</li>
+  <li>KDE battery meter doesn't function correctly</li>
+  <li>Anything else that raises concern</li>
+</ul>
+<div class="headings">Configuration Files</div>
+<ul>
+  <li>Any Configuration files that you needed to modify</li>
+</ul>
+<div class="headings">More Specific Information. Specific stuff such as:</div>
+<ul>
+  <li>df -hl</li>
+  <li>lspci</li>
+  <li>anything else you feel is relevant or may be useful</li>
+</ul>
+<div class="headings">Contact Information (Optional)</div>
+<ul>
+  <li>e-mail address (you can put spaces etc. to prevent spam)<br>
+  </li>
+  <li>Yahoo!/MSN/AIM screenname</li>
+</ul>
+<div class="headings">Links:</div>
+<ul>
+  <li>Any utilities or other resources you found useful</li>
+  <li>Link to the laptop manufacturer (If applicable)</li>
+  <li>And of course, back to Linux on Laptops!</li>
+</ul>
+<p>Plus other useful things you may have discovered</p>
+<p>Any impressions on the laptop in general - build, hardware etc. </p>
+</body></html>
